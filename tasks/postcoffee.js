@@ -74,7 +74,7 @@ module.exports = function(grunt) {
     for (; offset < length; offset += 1) {
       if (isModule(lines[offset])) {
         current += 1;
-        bundled[current] = { line: offset + 2 };
+        bundled[current] = { line: offset + 1 };
       } else if (current > -1) {
         if (isSourceMap(lines[offset])) {
           params = getSourceParams(lines[offset], options.cwd);
