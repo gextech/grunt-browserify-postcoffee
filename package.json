@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "name": "grunt-browserify-postcoffee",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11"
+  }
+}
